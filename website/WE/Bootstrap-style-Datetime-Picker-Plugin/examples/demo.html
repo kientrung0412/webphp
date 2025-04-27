@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../dist/jquery.datetimepicker.css" />
+    <style type="text/css">
+    #wrapper {
+        width: 780px;
+        margin: auto;
+    }
+
+    body {
+        font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "Microsoft YaHei UI", "Microsoft YaHei", STXihei, SimSun, sans-serif;
+    }
+
+    .log-wrapper {
+        float: right;
+    }
+
+    .log {
+        max-height: 300px;
+        overflow: auto;
+    }
+
+    .log .log__entry {
+        margin: .1em 0;
+        padding: .1em .2em;
+        border: 1px solid black;
+        white-space: nowrap;
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="demo2"></div>
+    </div>
+    <script type="text/javascript" src="../lib/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="../src/jquery.datetimepicker.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // function logEvent(type, date) {
+        //     $("<div class='log__entry'/>").hide().html("<strong>" + type + "</strong>: " + date).prependTo($('#eventlog')).show(200);
+        // }
+        // $('#clearlog').click(function() {
+        //     $('#eventlog').html('');
+        // });
+        // $('#demo2').datetimepicker({
+        //     date: new Date(),
+        //     viewMode: 'YMD',
+        //     onDateChange: function() {
+        //         $('#date-text2').text(this.getText());
+        //         $('#date-text-ymd2').text(this.getText('DD-MM-YYYY'));
+        //         $('#date-value2').text(this.getValue());
+        //     }
+        // });
+            $('#demo2').datetimepicker();
+            
+    });
+    </script>
+</body>
+
+</html>

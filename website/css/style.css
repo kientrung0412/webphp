@@ -1,0 +1,184 @@
+.header {
+    line-height: 50px;
+
+    padding-top: 5px;
+}
+
+#search {
+    position: relative;
+}
+
+#ipsearch,
+#btsearch {
+    margin-top: 10px;
+}
+
+#btsearch {
+    line-height: 15px;
+
+    height: 37px;
+    margin-right: 5px;
+
+    color: #ddd;
+}
+
+#ipsearch {
+    width: 250px;
+}
+
+/* #btsearch{
+    position: absolute;
+    left: 310px;
+ */
+#btsearch {
+    font-size: 24px;
+}
+
+#cart {
+    font-size: 32px;
+    line-height: 60px;
+    color: #fff;
+}
+#user{
+    font-size: 36px;
+    line-height: 45px;
+    color: #fff;
+}
+#txcart {
+    font-size: 20px;
+}
+
+#phone {
+    font-size: 36px;
+    color: #fff;
+}
+
+#phtitle p {
+    color: #ffdc00;
+}
+
+#numphon p {
+    color: #FFF;
+}
+
+.navbar .itemicon {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-text {
+    font-size: 13px;
+}
+
+.cpu {
+    display: none;
+}
+
+#nav-item:hover .cpu {
+    display: block;
+}
+
+.action {
+    background-color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #007bff;
+    border-radius: 5px;
+    color: floralwhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    .header {
+        line-height: 50px;
+
+        padding-top: 5px;
+    }
+
+    #search {
+        position: relative;
+    }
+
+    #ipsearch,
+    #btsearch {
+        margin-top: 10px;
+    }
+
+    #btsearch {
+        line-height: 15px;
+
+        height: 37px;
+        margin-right: 5px;
+
+        color: #ddd;
+    }
+
+    #ipsearch {
+        width: 250px;
+    }
+
+    /* #btsearch{
+    position: absolute;
+    left: 310px;
+ */
+    #btsearch {
+        font-size: 24px;
+    }
+
+    #cart {
+        font-size: 24px;
+        ;
+        line-height: 60px;
+    }
+
+    #txcart {
+        font-size: 20px;
+    }
+
+    #icon-user {
+        font-size: 24px;
+    }
+
+    #phone {
+        font-size: 36px;
+
+        margin-top: 8px;
+    }
+
+    #phtitle p {
+        color: #ffdc00;
+    }
+
+    #numphon p {
+        color: #aaa;
+    }
+
+    .navbar .itemicon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar-text {
+        font-size: 13px;
+    }
+
+    .cpu {
+        display: none;
+    }
+
+    #nav-item:hover .cpu {
+        display: block;
+    }
+    .top{
+        display: flex;
+    }
+    
